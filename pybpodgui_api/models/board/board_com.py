@@ -163,7 +163,8 @@ class BoardCom(BoardIO):
             subject_extra=','.join(list(map(lambda x: '"'+str(x)+'"', xt_subject))),
             user_extra=xt_user,
             variables_names=','.join(["'"+var.name+"'" for var in board_task.variables]),
-            bpod_firmware_version=conf.TARGET_BPOD_FIRMWARE_VERSION
+            bpod_firmware_version=conf.TARGET_BPOD_FIRMWARE_VERSION,
+            bpod_machine_type=conf.EMULATOR_BPOD_MACHINE_TYPE,
         )
 
         for var in board_task.variables:
