@@ -27,6 +27,7 @@ PYBPOD_USER_EXTRA = '{user_extra}'
 
 
 TARGET_BPOD_FIRMWARE_VERSION = '{bpod_firmware_version}'
+EMULATOR_BPOD_MACHINE_TYPE = '{bpod_machine_type}'
 
 #import logging
 #PYBPOD_API_LOG_LEVEL = logging.DEBUG
